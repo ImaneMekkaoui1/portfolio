@@ -1,5 +1,5 @@
 
-# Portfolio Web – Imane Mekkaoui
+# Portfolio Web 
 
 ## Présentation du projet
 
@@ -49,7 +49,7 @@ portfolio/
 
 * **portfolio.html** : fichier principal contenant la structure du site
 * **portfolio.css** : fichier contenant les styles CSS
-* **images/** : dossier contenant le cv 
+* **cv/** : dossier contenant le cv 
 * **images/** : dossier contenant les images utilisées dans le portfolio
 * **README.md** : description du projet
 
