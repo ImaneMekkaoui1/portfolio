@@ -108,11 +108,9 @@ Informations permettant de me contacter :
 Étudiante en Master **Systèmes Distribués et Intelligence Artificielle (SDIA)**
 ENSET
 
-GitHub :
-https://github.com/ImaneMekkaoui1
 
 LinkedIn :
-(Ajouter votre lien LinkedIn)
+[)](https://www.linkedin.com/in/imane-mekkaoui-3631261b2/)
 
 Email :
 [mekkaouiimane722@gmail.com](mailto:mekkaouiimane722@gmail.com)
