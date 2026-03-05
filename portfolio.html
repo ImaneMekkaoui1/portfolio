@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imane Mekkaoui | Portfolio SDIA</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-flex">
+            <div class="logo">IM<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">Bio</a></li>
+                <li><a href="#education">Parcours</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <span class="badge">Master SDIA @ ENSET</span>
+                <h1>Systèmes Distribués & <span class="text-gradient">IA</span></h1>
+                <p>Étudiante passionnée par l'IA, le développement web intelligent et le Big Data.</p>
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">Voir mes travaux</a>
+                    <a href="cv/current ResumeLast.pdf" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-file-pdf"></i> Télécharger CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="images/emyPhoto.jpg" alt="Imane Mekkaoui">
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about" class="section">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="card about-card">
+                <p>
+                    Actuellement en Master <strong>Systèmes Distribués et Intelligence Artificielle (SDIA)</strong>, 
+                    je développe des compétences dans les technologies des systèmes distribués, le développement 
+                    d’applications web et les concepts de l’intelligence artificielle. Mon parcours m’a permis 
+                    d’acquérir une bonne maîtrise des réseaux informatiques ainsi que du développement full-stack.
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2 class="section-title">Parcours Académique</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="dot"></div>
+                    <span class="year">2025-2026 - Présent</span>
+                    <h3>Master SDIA</h3>
+                    <p class="location">ENSET Mohammedia</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="dot"></div>
+                    <span class="year">2024 - 2025</span>
+                    <h3>Licence Informatique & Mathématiques Appliquées</h3>
+                    <p class="location">FP El Jadida</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="dot"></div>
+                    <span class="year">2021 - 2023</span>
+                    <h3>BTS en Informatique (Bac+2)</h3>
+                    <p class="location">Beni Mellal</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-item"><i class="fab fa-python"></i> Python / ML</div>
+                <div class="skill-item"><i class="fas fa-brain"></i> IA / Markov</div>
+                <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+                <div class="skill-item"><i class="fab fa-angular"></i> Angular / Spring</div>
+                <div class="skill-item"><i class="fas fa-database"></i> SQL / NoSQL</div>
+                <div class="skill-item"><i class="fab fa-git-alt"></i> Sécurité / Cryptographie</div>
+                <div class="skill-item"><i class="fas fa-network-wired"></i> Réseaux / Systèmes</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">Projets Sélectionnés</h2>
+            <div class="project-grid">
+                <article class="card project-card">
+                    <div class="project-header">
+                        <i class="fas fa-tasks"></i>
+                        <h3>SmartTaskManagerAI</h3>
+                    </div>
+                    <p>Gestionnaire intelligent utilisant l'IA pour prioriser les workflows.</p>
+                    <div class="tags"><span>IA</span> <span>Web</span></div>
+                </article>
+
+                <article class="card project-card">
+                    <div class="project-header">
+                        <i class="fas fa-cloud-sun"></i>
+                        <h3>Weather-EnviroTrack</h3>
+                    </div>
+                    <p>Suivi environnemental temps réel avec visualisation de données.</p>
+                    <div class="tags"><span>API</span> <span>Python</span></div>
+                </article>
+
+                <article class="card project-card">
+                    <div class="project-header">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>Markov Grid Planning</h3>
+                    </div>
+                    <p>Planification sur grille basée sur les Chaînes de Markov.</p>
+                    <div class="tags"><span>Maths</span> <span>Optimisation</span></div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>On collabore ?</h2>
+            <p class="email">mekkaouiimane722@gmail.com</p>
+            <div class="socials">
+                <a href="https://github.com/ImaneMekkaoui1" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/imane-mekkaoui-3631261b2/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copy">© 2026 Imane Mekkaoui | Portfolio SDIA</p>
+        </div>
+    </footer>
+
+</body>
+</html>
