@@ -110,7 +110,7 @@ ENSET
 
 
 LinkedIn :
-[)](https://www.linkedin.com/in/imane-mekkaoui-3631261b2/)
+[https://www.linkedin.com/in/imane-mekkaoui-3631261b2/](https://www.linkedin.com/in/imane-mekkaoui-3631261b2/)
 
 Email :
 [mekkaouiimane722@gmail.com](mailto:mekkaouiimane722@gmail.com)
