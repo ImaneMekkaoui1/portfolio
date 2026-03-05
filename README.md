@@ -39,15 +39,17 @@ Le projet est organisé de la manière suivante :
 ```
 portfolio/
 │
-├── index.html
-├── style.css
+├── portfolio.html
+├── portfolio.css
+├── cv/
 ├── images/
 │   └── photo.jpg
 └── README.md
 ```
 
-* **index.html** : fichier principal contenant la structure du site
-* **style.css** : fichier contenant les styles CSS
+* **portfolio.html** : fichier principal contenant la structure du site
+* **portfolio.css** : fichier contenant les styles CSS
+* **images/** : dossier contenant le cv 
 * **images/** : dossier contenant les images utilisées dans le portfolio
 * **README.md** : description du projet
 
